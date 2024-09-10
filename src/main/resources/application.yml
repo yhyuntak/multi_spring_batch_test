@@ -10,8 +10,6 @@ spring:
       enabled: true
     jdbc:
       initialize-schema: always
-  quartz:
-    job-store-type: jdbc
 
   application:
     name: spring-multi-server
